@@ -24,10 +24,10 @@ function button () {
    ('It will be a couple more years for you!')
     document.getElementById('para').style.color = 'red'
   } else if (age >= 13) {
-   document.getElementById('para').innerHTML =
+    document.getElementById('para').innerHTML =
      ('You still got quite a ways to go, but it will arive sooner than you know it, so thats a reminder to take everyday as a gift!')
     document.getElementById('para').style.color = 'red'
-  } else if (age != 13) {
+  } else if (age !== 13) {
     document.getElementById('para').innerHTML =
      ('You still got quite a ways to go, but it will arive sooner than you know it, so thats a reminder to take everyday as a gift!')
     document.getElementById('para').style.color = 'red'
