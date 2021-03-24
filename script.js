@@ -11,7 +11,6 @@ function button () {
     document.getElementById('para').innerHTML =
     ('Haha funny, but yes you can have drivers lessons!')
     document.getElementById('para').style.color = "green"
-
   } else if (age >= 16) {
      document.getElementById('para').innerHTML =
     ('You can get driving lessons!')
