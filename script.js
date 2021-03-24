@@ -1,6 +1,8 @@
 let age = 0
+// This is a let statement for age, so it is defined
 
 document.getElementById('button').addEventListener('click', button)
+// This allows the website to know to press the Button
 
 function button () {
   age = document.getElementById('input').value
@@ -36,3 +38,4 @@ function button () {
     document.getElementById('parathanks').style.color = 'green'
   }
 }
+// all those functions activate when you enter a certain number inside of the input botx and press button, they give you a certain message if you're able to drive or apply for drivers lessons etc, and each of them have if or else if statements, so the website knows that if you are this age, or that age, you can or can not have drivers lessons.
